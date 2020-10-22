@@ -1,0 +1,16 @@
+{
+    "name": "alex/composer1",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "Rainbow-of-Dawn",
+            "email": "as.linkpro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"App\\Wcs\\": "src/Wcs"}
+    },
+    "require": {
+        "ehime/hello-world": "^1.0"
+    }
+}
