@@ -2,6 +2,5 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$heyComp = new App\Wcs\SayHello();
-
+$heyComp = new \HelloWorld\SayHello;
 echo $heyComp->world();
